@@ -1,0 +1,1415 @@
+.customElement#profile {
+  position: absolute;
+
+  top: 0%;
+  left: 0%;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: calc(100%);
+  height: max-content;
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  z-index: 1;
+}
+
+.customElement#profile > .main {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: calc(95%);
+  height: calc(30vh);
+
+  margin: 10px 0px 0px 0px;
+  padding: 10px 10px 10px 10px;
+
+  border: none;
+  border-radius: 30px 30px 30px 30px;
+  background: rgba(15, 15, 15, 0.9);
+
+  z-index: 1;
+}
+.customElement#profile > .main::-webkit-scrollbar {
+  display: none;
+  width: 0px;
+}
+.customElement#profile > .main::-webkit-scrollbar-track {
+  display: none;
+}
+.customElement#profile > .main::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+.customElement#profile > .main > .content {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  width: calc(100%);
+  height: calc(100%);
+
+  margin: 0px;
+  padding: 10px 10px 10px 10px;
+
+  border: none;
+  background: none;
+
+  z-index: 1;
+}
+
+.customElement#profile > .main > .content > .preview {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  width: calc(30%);
+  height: calc(100%);
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  z-index: 1;
+}
+
+.customElement#profile > .main > .content > .preview > .avatar {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: calc(100%);
+  height: calc(84%);
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  z-index: 1;
+}
+
+.customElement#profile > .main > .content > .preview > .avatar > img {
+  position: relative;
+
+  display: block;
+
+  max-width: calc(100%);
+  width: auto;
+  max-height: calc(100%);
+  height: auto;
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  border-radius: 20px 20px 20px 20px;
+  background: none;
+
+  z-index: 1;
+}
+
+.customElement#profile > .main > .content > .preview > .fast-access {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  width: calc(100%);
+  height: calc(12%);
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  z-index: 1;
+}
+
+.customElement#profile > .main > .content > .preview > .fast-access > button {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: calc(70%);
+  height: calc(100%);
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  border-radius: 18px;
+  background: rgba(110, 110, 110, 0.95);
+
+  z-index: 1;
+}
+.customElement#profile > .main > .content > .preview > .fast-access > button[is-disabled='true'] {
+  background: rgba(45, 45, 45, 0.95);
+
+  pointer-events: none;
+}
+
+.customElement#profile > .main > .content > .preview > .fast-access > button > span {
+  color: rgba(180, 180, 180, 0.8);
+
+  font-family: 'Noto Sans', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  text-align: center;
+
+  font-size: 3.1vw;
+  line-height: 3.1vw;
+  letter-spacing: 0px;
+  font-weight: 400;
+  text-shadow: 0 0px 2px rgb(255 255 255 / 10%);
+}
+
+.customElement#profile > .main > .content > .info {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  width: calc(66%);
+  height: calc(100%);
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  z-index: 1;
+}
+
+.customElement#profile > .main > .content > .info > .main {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: calc(100%);
+  height: calc(84%);
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  z-index: 1;
+}
+
+.customElement#profile > .main > .content > .info > .main > .credentials {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  width: calc(100%);
+  height: calc(60%);
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  z-index: 1;
+}
+
+.customElement#profile > .main > .content > .info > .main > .credentials > .name {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  width: calc(75%);
+  height: calc(100% - 10px);
+
+  margin: 10px 0px 0px 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  z-index: 1;
+}
+
+.customElement#profile > .main > .content > .info > .main > .credentials > .name > .first {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+
+  width: calc(100%);
+  height: calc(30%);
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  z-index: 1;
+}
+
+.customElement#profile > .main > .content > .info > .main > .credentials > .name > .first > span {
+  color: rgba(255, 57, 57, 0.85);
+
+  font-family: 'Noto Sans', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  text-align: left;
+
+  font-size: 5vw;
+  line-height: 5vw;
+  letter-spacing: 0px;
+  font-weight: 400;
+  text-shadow: 0 0px 2px rgb(255 255 255 / 10%);
+}
+
+.customElement#profile > .main > .content > .info > .main > .credentials > .name > .second {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+
+  width: calc(100%);
+  height: calc(30%);
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  z-index: 1;
+}
+
+.customElement#profile > .main > .content > .info > .main > .credentials > .name > .second > span {
+  color: rgba(180, 180, 180, 0.8);
+
+  font-family: 'Noto Sans', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  text-align: left;
+
+  font-size: 3.6vw;
+  line-height: 5vw;
+  letter-spacing: 0px;
+  font-weight: 400;
+  text-shadow: 0 0px 2px rgb(255 255 255 / 10%);
+}
+
+.customElement#profile > .main > .content > .info > .main > .credentials > .name > .third {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+
+  width: calc(100%);
+  height: calc(30%);
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  z-index: 1;
+}
+
+.customElement#profile > .main > .content > .info > .main > .credentials > .name > .third > span {
+  color: rgba(180, 180, 180, 0.8);
+
+  font-family: 'Noto Sans', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  text-align: left;
+
+  font-size: 3.6vw;
+  line-height: 5vw;
+  letter-spacing: 0px;
+  font-weight: 400;
+  text-shadow: 0 0px 2px rgb(255 255 255 / 10%);
+}
+
+.customElement#profile > .main > .content > .info > .main > .credentials > .kpi {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: calc(20%);
+  height: calc(100%);
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  z-index: 1;
+}
+
+.customElement#profile > .main > .content > .info > .main > .credentials > .kpi > img {
+  position: relative;
+
+  display: block;
+
+  max-width: calc(100%);
+  width: auto;
+  max-height: calc(100%);
+  height: auto;
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  z-index: 1;
+}
+
+.customElement#profile > .main > .content > .info > .main > .credentials > .kpi > .value {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: calc(100%);
+  height: max-content;
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  transform: translateX(-50%);
+
+  z-index: 1;
+}
+
+.customElement#profile > .main > .content > .info > .main > .credentials > .kpi > .value > span {
+  color: rgba(180, 180, 180, 0.8);
+
+  font-family: 'Noto Sans', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  text-align: center;
+
+  font-size: 2.2vw;
+  line-height: 2.2vw;
+  letter-spacing: 0px;
+  font-weight: 400;
+  text-shadow: 0 0px 2px rgb(255 255 255 / 35%);
+}
+
+.customElement#profile > .main > .content > .info > .main > .signup {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  width: calc(100%);
+  height: calc(25% - 40px);
+
+  margin: 40px 0px 0px 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  z-index: 1;
+}
+
+.customElement#profile > .main > .content > .info > .main > .signup > .title {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: max-content;
+  height: max-content;
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  z-index: 1;
+}
+
+.customElement#profile > .main > .content > .info > .main > .signup > .title > span {
+  color: rgba(235, 235, 235, 0.9);
+
+  font-family: 'Noto Sans', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  text-align: center;
+
+  font-size: 2.6vw;
+  line-height: 2.6vw;
+  letter-spacing: 0px;
+  font-weight: 400;
+  text-shadow: 0 0px 2px rgb(255 255 255 / 35%);
+}
+
+.customElement#profile > .main > .content > .info > .main > .signup > .date {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: max-content;
+  height: max-content;
+
+  margin: 10px 0px 0px 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  z-index: 1;
+}
+
+.customElement#profile > .main > .content > .info > .main > .signup > .date > span {
+  color: rgba(180, 180, 180, 0.8);
+
+  font-family: 'Noto Sans', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  text-align: center;
+
+  font-size: 2.2vw;
+  line-height: 2.2vw;
+  letter-spacing: 0px;
+  font-weight: 400;
+  text-shadow: 0 0px 2px rgb(255 255 255 / 35%);
+}
+
+.customElement#profile > .main > .content > .info > .roles {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: calc(100%);
+  height: calc(12%);
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  z-index: 1;
+}
+.customElement#profile > .main > .content > .info > .roles::-webkit-scrollbar {
+  display: none;
+  width: 0px;
+}
+.customElement#profile > .main > .content > .info > .roles::-webkit-scrollbar-track {
+  display: none;
+}
+.customElement#profile > .main > .content > .info > .roles::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+.customElement#profile > .admin-access {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: calc(95%);
+  height: max-content;
+
+  margin: 10px 0px 0px 0px;
+  padding: 10px 10px 10px 10px;
+
+  border: none;
+  border-radius: 30px 30px 30px 30px;
+  background: rgba(15, 15, 15, 0.9);
+
+  z-index: 1;
+}
+
+.customElement#profile > .admin-access > .teams {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: calc(100%);
+  height: max-content;
+
+  margin: 0px;
+  padding: 10px 10px 30px 10px;
+
+  border: none;
+  background: none;
+
+  z-index: 1;
+}
+.customElement#profile > .admin-access > .teams::after {
+  position: absolute;
+
+  top: 100%;
+  left: 50%;
+
+  display: block;
+
+  content: '';
+
+  width: calc(95%);
+  height: calc(2px);
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: rgba(210, 210, 210, 0.8);
+
+  transform: translateX(-50%);
+}
+
+.customElement#profile > .admin-access > .teams > .departments {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  width: calc(100%);
+  height: max-content;
+
+  margin: 0px 0px 8px 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  z-index: 1;
+}
+.customElement#profile > .admin-access > .teams > .departments::-webkit-scrollbar {
+  display: none;
+  width: 0px;
+}
+.customElement#profile > .admin-access > .teams > .departments::-webkit-scrollbar-track {
+  display: none;
+}
+.customElement#profile > .admin-access > .teams > .departments::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+.customElement#profile > .admin-access > .teams > .departments > .list {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: max-content;
+  height: max-content;
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  z-index: 1;
+}
+
+.customElement#profile > .admin-access > .teams > .projects {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  width: calc(100%);
+  height: max-content;
+
+  margin: 8px 0px 0px 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  z-index: 1;
+}
+.customElement#profile > .admin-access > .teams > .projects::-webkit-scrollbar {
+  display: none;
+  width: 0px;
+}
+.customElement#profile > .admin-access > .teams > .projects::-webkit-scrollbar-track {
+  display: none;
+}
+.customElement#profile > .admin-access > .teams > .projects::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+.customElement#profile > .admin-access > .teams > .projects > .list {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: max-content;
+  height: max-content;
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  z-index: 1;
+}
+
+.customElement#profile > .admin-access > .attendance {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: calc(100%);
+  height: calc(25vh);
+
+  margin: 20px;
+  padding: 10px 10px 10px 10px;
+
+  border: none;
+  background: none;
+
+  z-index: 1;
+}
+.customElement#profile > .admin-access > .attendance::after {
+  position: absolute;
+
+  top: 100%;
+  left: 50%;
+
+  display: block;
+
+  content: '';
+
+  width: calc(95%);
+  height: calc(2px);
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: rgba(210, 210, 210, 0.8);
+
+  transform: translateX(-50%);
+}
+
+.customElement#profile > .admin-access > .attendance > .meetups {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: calc(75%);
+  height: calc(100%);
+
+  margin: 0px;
+  padding: 10px 10px 10px 10px;
+
+  border: none;
+  border-radius: 20px 20px 20px 20px;
+  background: rgba(15, 15, 15, 0.9);
+
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  z-index: 1;
+}
+.customElement#profile > .admin-access > .attendance > .meetups::-webkit-scrollbar {
+  display: none;
+  width: 0px;
+}
+.customElement#profile > .admin-access > .attendance > .meetups::-webkit-scrollbar-track {
+  display: none;
+}
+.customElement#profile > .admin-access > .attendance > .meetups::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+.customElement#profile > .admin-access > .attendance > .meetups > .list {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: calc(100%);
+  height: max-content;
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  z-index: 1;
+}
+
+.customElement#profile > .admin-access > .attendance > .statistics {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  width: calc(24%);
+  height: calc(100%);
+
+  margin: 0px;
+  padding: 10px 10px 10px 10px;
+
+  border: none;
+  border-radius: 20px 20px 20px 20px;
+  background: rgba(15, 15, 15, 0.9);
+
+  z-index: 1;
+}
+.customElement#profile > .admin-access > .attendance > .statistics::after {
+  position: absolute;
+
+  top: 50%;
+  left: 0%;
+
+  display: block;
+
+  content: '';
+
+  width: calc(2px);
+  height: calc(95%);
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: rgba(210, 210, 210, 0.8);
+
+  transform: translateY(-50%) translateX(-200%);
+}
+
+.customElement#profile > .admin-access > .attendance > .statistics > .global {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: calc(100%);
+  height: calc(60%);
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  z-index: 1;
+}
+
+.customElement#profile > .admin-access > .attendance > .statistics > .global > .diagram {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: calc(15vw);
+  height: calc(15vw);
+
+  margin: 0px;
+  padding: 0px;
+
+  border: 1px solid rgba(80, 255, 57, 1);
+  border-radius: 50%;
+  background: none;
+
+  z-index: 1;
+}
+
+.customElement#profile > .admin-access > .attendance > .statistics > .global > .diagram > .value {
+  position: absolute;
+
+  top: 65%;
+  left: 50%;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: max-content;
+  height: max-content;
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  transform: translateX(-50%);
+
+  z-index: 1;
+}
+
+.customElement#profile > .admin-access > .attendance > .statistics > .global > .diagram > .value > span {
+  color: rgba(235, 235, 235, 0.9);
+
+  font-family: 'Noto Sans', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  text-align: center;
+
+  font-size: 3vw;
+  line-height: 3vw;
+  letter-spacing: 0px;
+  font-weight: 400;
+  text-shadow: 0 0px 2px rgb(255 255 255 / 35%);
+}
+
+.customElement#profile > .admin-access > .attendance > .statistics > .local {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: calc(100%);
+  height: calc(35%);
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  z-index: 1;
+}
+
+.customElement#profile > .admin-access > .attendance > .statistics > .local > .department {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: calc(40%);
+  height: calc(100%);
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  z-index: 1;
+}
+
+.customElement#profile > .admin-access > .attendance > .statistics > .local > .department > .diagram {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: calc(8vw);
+  height: calc(8vw);
+
+  margin: 0px;
+  padding: 0px;
+
+  border: 1px solid rgba(80, 255, 57, 1);
+  border-radius: 50%;
+  background: none;
+
+  z-index: 1;
+}
+
+.customElement#profile > .admin-access > .attendance > .statistics > .local > .department > .diagram > .value {
+  position: absolute;
+
+  top: 65%;
+  left: 50%;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: max-content;
+  height: max-content;
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  transform: translateX(-50%);
+
+  z-index: 1;
+}
+
+.customElement#profile > .admin-access > .attendance > .statistics > .local > .department > .diagram > .value > span {
+  color: rgba(235, 235, 235, 0.9);
+
+  font-family: 'Noto Sans', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  text-align: center;
+
+  font-size: 1.8vw;
+  line-height: 1.8vw;
+  letter-spacing: 0px;
+  font-weight: 400;
+  text-shadow: 0 0px 2px rgb(255 255 255 / 35%);
+}
+
+.customElement#profile > .admin-access > .attendance > .statistics > .local > .project {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: calc(40%);
+  height: calc(100%);
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  z-index: 1;
+}
+
+.customElement#profile > .admin-access > .attendance > .statistics > .local > .project > .diagram {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: calc(8vw);
+  height: calc(8vw);
+
+  margin: 0px;
+  padding: 0px;
+
+  border: 1px solid rgba(80, 255, 57, 1);
+  border-radius: 50%;
+  background: none;
+
+  z-index: 1;
+}
+
+.customElement#profile > .admin-access > .attendance > .statistics > .local > .project > .diagram > .value {
+  position: absolute;
+
+  top: 65%;
+  left: 50%;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: max-content;
+  height: max-content;
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  transform: translateX(-50%);
+
+  z-index: 1;
+}
+
+.customElement#profile > .admin-access > .attendance > .statistics > .local > .project > .diagram > .value > span {
+  color: rgba(235, 235, 235, 0.9);
+
+  font-family: 'Noto Sans', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  text-align: center;
+
+  font-size: 1.8vw;
+  line-height: 1.8vw;
+  letter-spacing: 0px;
+  font-weight: 400;
+  text-shadow: 0 0px 2px rgb(255 255 255 / 35%);
+}
+
+.customElement#profile > .achievements {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: calc(95%);
+  height: max-content;
+
+  margin: 10px 0px 0px 0px;
+  padding: 10px 10px 10px 10px;
+
+  border: none;
+  border-radius: 30px 30px 30px 30px;
+  background: rgba(15, 15, 15, 0.9);
+
+  z-index: 1;
+}
+
+.customElement#profile > button.delete {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: max-content;
+  height: max-content;
+
+  margin: 10px 0px 20px 0px;
+  padding: 10px 70px 10px 70px;
+
+  border: none;
+  border-radius: 30px 30px 30px 30px;
+  background: rgba(255, 57, 57, 0.85);
+
+  z-index: 1;
+}
+
+.customElement#profile > button.delete > span {
+  color: rgba(235, 235, 235, 0.9);
+
+  font-family: 'Noto Sans', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  text-align: center;
+
+  font-size: 3vw;
+  line-height: 3vw;
+  letter-spacing: 0px;
+  font-weight: 400;
+  text-shadow: 0 0px 2px rgb(255 255 255 / 35%);
+}

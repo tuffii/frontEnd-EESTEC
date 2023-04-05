@@ -1,0 +1,96 @@
+.customElement#profile > .admin-access > .teams > .departments > .list > .department {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: max-content;
+  height: calc(100%);
+
+  margin: 0px 5px 0px 5px;
+  padding: 2px 8px 2px 8px;
+
+  border: 1px solid rgba(255, 221, 45, 1);
+  border-radius: 15px;
+  background: rgba(255, 221, 45, 0.1);
+
+  overflow: visible;
+
+  z-index: 1;
+}
+.customElement#profile > .admin-access > .teams > .departments > .list > .department:first-child {
+  margin: 0px 5px 0px 0px;
+}
+
+.customElement#profile > .admin-access > .teams > .departments > .list > .department > .marker {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: calc(6px);
+  height: calc(6px);
+
+  margin: 0px 2px 0px 2px;
+  padding: 0px;
+
+  border: none;
+  border-radius: 50%;
+  background: rgba(255, 221, 45, 1);
+
+  z-index: 1;
+}
+
+.customElement#profile > .admin-access > .teams > .departments > .list > .department > .name {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: max-content;
+  height: calc(100%);
+
+  margin: 0px 5px 0px 5px;
+  padding: 1px 2px 1px 2px;
+
+  border: none;
+  background: none;
+
+  z-index: 1;
+}
+
+.customElement#profile > .admin-access > .teams > .departments > .list > .department > .name > span {
+  color: rgba(180, 180, 180, 0.8);
+
+  font-family: 'Noto Sans', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  text-align: center;
+
+  font-size: 3vw;
+  line-height: 3vw;
+  letter-spacing: 0px;
+  font-weight: 400;
+  text-shadow: 0 0px 2px rgb(255 255 255 / 10%);
+}

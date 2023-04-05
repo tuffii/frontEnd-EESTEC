@@ -1,0 +1,10 @@
+.customElement#usersList  > .blacker > .meny > .settings > .button {
+    border: none;
+    color: black;
+    padding: 1% 1;
+    text-align: left;
+    display: inline-block;
+    font-size: 200%;
+
+    background-color: transparent;
+  }

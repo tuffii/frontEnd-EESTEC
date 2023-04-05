@@ -1,0 +1,218 @@
+.customElement#profile > .admin-access > .attendance > .meetups > .list > .meetup {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: calc(100%);
+  height: max-content;
+
+  margin: 2px 0px 2px 0px;
+  padding: 3px 8px 3px 8px;
+
+  border: none;
+  border-radius: 6px;
+  background: none;
+
+  overflow: visible;
+
+  z-index: 1;
+}
+.customElement#profile > .admin-access > .attendance > .meetups > .list > .meetup:first-child {
+  margin: 0px 0px 2px 0px;
+}
+.customElement#profile > .admin-access > .attendance > .meetups > .list > .meetup:last-child {
+  margin: 2px 0px 0px 0px;
+}
+
+.customElement#profile > .admin-access > .attendance > .meetups > .list > .meetup > .info {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: calc(90%);
+  height: max-content;
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  z-index: 1;
+}
+
+.customElement#profile > .admin-access > .attendance > .meetups > .list > .meetup > .info > .name {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  width: calc(40%);
+  height: max-content;
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  z-index: 1;
+}
+
+.customElement#profile > .admin-access > .attendance > .meetups > .list > .meetup > .info > .name > span {
+  color: rgba(235, 235, 235, 0.9);
+
+  font-family: 'Noto Sans', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  text-align: center;
+
+  font-size: 2vw;
+  line-height: 2vw;
+  letter-spacing: 0px;
+  font-weight: 400;
+  text-shadow: 0 0px 2px rgb(255 255 255 / 35%);
+}
+
+.customElement#profile > .admin-access > .attendance > .meetups > .list > .meetup > .info > .date {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: calc(45%);
+  height: max-content;
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  z-index: 1;
+}
+
+.customElement#profile > .admin-access > .attendance > .meetups > .list > .meetup > .info > .date > span {
+  color: rgba(235, 235, 235, 0.9);
+
+  font-family: 'Noto Sans', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  text-align: center;
+
+  font-size: 2vw;
+  line-height: 2vw;
+  letter-spacing: 0px;
+  font-weight: 400;
+  text-shadow: 0 0px 2px rgb(255 255 255 / 35%);
+}
+
+.customElement#profile > .admin-access > .attendance > .meetups > .list > .meetup > .info > .time {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: calc(15%);
+  height: max-content;
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  z-index: 1;
+}
+
+.customElement#profile > .admin-access > .attendance > .meetups > .list > .meetup > .info > .time > span {
+  color: rgba(235, 235, 235, 0.9);
+
+  font-family: 'Noto Sans', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  text-align: center;
+
+  font-size: 2vw;
+  line-height: 2vw;
+  letter-spacing: 0px;
+  font-weight: 400;
+  text-shadow: 0 0px 2px rgb(255 255 255 / 35%);
+}
+
+.customElement#profile > .admin-access > .attendance > .meetups > .list > .meetup > .status {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: calc(8%);
+  height: max-content;
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  z-index: 1;
+}
+
+.customElement#profile > .admin-access > .attendance > .meetups > .list > .meetup > .status > span {
+  color: rgba(235, 235, 235, 0.9);
+
+  font-family: 'Noto Sans', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  text-align: center;
+
+  font-size: 2.2vw;
+  line-height: 2.2vw;
+  letter-spacing: 0px;
+  font-weight: 400;
+  text-shadow: 0 0px 2px rgb(255 255 255 / 35%);
+}

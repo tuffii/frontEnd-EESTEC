@@ -1,0 +1,464 @@
+.customElement#sideBar > .main > .list > .element {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  width: calc(100%);
+  height: max-content;
+
+  margin: 8px 0px 8px 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  overflow: visible;
+
+  z-index: 99999;
+}
+
+.customElement#sideBar > .main > .list > .element > .content {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: calc(98%);
+  height: calc(100%);
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  z-index: 99999;
+}
+
+.customElement#sideBar > .main > .list > .element > .content > .icon {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: calc(11%);
+  height: calc(100%);
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  z-index: 99999;
+}
+
+.customElement#sideBar > .main > .list > .element > .content > .icon > span {
+  color: rgba(180, 180, 180, 0.8);
+
+  font-family: 'Noto Sans', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  text-align: center;
+
+  font-size: 3.2vw;
+  line-height: 4vw;
+  letter-spacing: 0px;
+  font-weight: 400;
+  text-shadow: 0 0px 2px rgb(255 255 255 / 15%);
+}
+
+.customElement#sideBar > .main > .list > .element > .content > .name {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: calc(80%);
+  height: calc(100%);
+
+  margin: 0px 15px 0px 5px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  z-index: 99999;
+}
+
+.customElement#sideBar > .main > .list > .element > .content > .name > span {
+  color: rgba(180, 180, 180, 0.8);
+
+  font-family: 'Noto Sans', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  text-align: left;
+
+  font-size: 4vw;
+  line-height: 4vw;
+  letter-spacing: 0px;
+  font-weight: 500;
+  text-shadow: 0 0px 2px rgb(255 255 255 / 15%);
+}
+
+.customElement#sideBar > .main > .list > .element > .content > .name > .notification {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: max-content;
+  height: calc(70%);
+
+  margin: 0px 0px 0px 5px;
+  padding: 0px 5px 0px 5px;
+
+  border: none;
+  border-radius: 7px;
+  background: rgba(255, 157, 28, 0.85);
+
+  transform: translateY(-40%);
+
+  z-index: 99999;
+}
+
+.customElement#sideBar > .main > .list > .element > .content > .name > .notification > span {
+  color: rgba(240, 240, 240, 0.95);
+
+  font-family: 'Noto Sans', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  text-align: left;
+
+  font-size: 1.6vw;
+  line-height: 1.6vw;
+  letter-spacing: 0px;
+  font-weight: 700;
+  text-shadow: 0 0px 2px rgb(255 255 255 / 15%);
+}
+
+.customElement#sideBar > .main > .list > .element > .content > button.toggle {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: calc(9%);
+  height: calc(100%);
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  z-index: 99999;
+}
+
+.customElement#sideBar > .main > .list > .element > .content > button.toggle > span {
+  color: rgba(180, 180, 180, 0.8);
+
+  font-family: 'Noto Sans', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  text-align: center;
+
+  font-size: 3vw;
+  line-height: 3vw;
+  letter-spacing: 0px;
+  font-weight: 400;
+  text-shadow: 0 0px 2px rgb(255 255 255 / 45%);
+
+  transition: all 0.2s linear;
+}
+.customElement#sideBar > .main > .list > .element[is-active='true'] > .content > button.toggle > span {
+  transform: rotateX(180deg);
+}
+
+.customElement#sideBar > .main > .list > .element > .sub-list {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: calc(95%);
+  height: max-content;
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  opacity: 0;
+
+  transform: translateX(100%);
+
+  transition: all 0.4s ease-out, opacity 0.2s ease-out;
+
+  z-index: 99999;
+}
+.customElement#sideBar > .main > .list > .element[is-active='true'] > .sub-list {
+  width: calc(95% - 40px);
+
+  margin: 10px 10px 10px 30px;
+
+  opacity: 1;
+
+  transform: translateX(0%);
+}
+
+.customElement#sideBar > .main > .list > .element > .sub-list > .element {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  width: calc(100%);
+  height: max-content;
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  transition: all 0.2s ease-out;
+
+  z-index: 99999;
+}
+.customElement#sideBar > .main > .list > .element[is-active='true'] > .sub-list > .element {
+  margin: 8px 0px 8px 0px;
+}
+
+.customElement#sideBar > .main > .list > .element > .sub-list > .element > .content {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: calc(100%);
+  height: calc(100%);
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  z-index: 99999;
+}
+
+.customElement#sideBar > .main > .list > .element > .sub-list > .element > .content > .icon {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: calc(11%);
+  height: calc(100%);
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  z-index: 99999;
+}
+
+.customElement#sideBar > .main > .list > .element > .sub-list > .element > .content > .icon > span {
+  color: rgba(180, 180, 180, 0.8);
+
+  font-family: 'Noto Sans', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  text-align: center;
+
+  font-size: 0vw;
+  line-height: 0vw;
+  letter-spacing: 0px;
+  font-weight: 400;
+  text-shadow: 0 0px 2px rgb(255 255 255 / 15%);
+
+  transition: all 0.2s ease-in;
+}
+.customElement#sideBar > .main > .list > .element[is-active='true'] > .sub-list > .element > .content > .icon > span {
+  font-size: 2.4vw;
+  line-height: 3vw;
+}
+
+.customElement#sideBar > .main > .list > .element > .sub-list > .element > .content > .name {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: calc(80%);
+  height: calc(100%);
+
+  margin: 0px 0px 0px 5px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  z-index: 99999;
+}
+
+.customElement#sideBar > .main > .list > .element > .sub-list > .element > .content > .name > span {
+  color: rgba(180, 180, 180, 0.8);
+
+  font-family: 'Noto Sans', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  text-align: left;
+
+  font-size: 0vw;
+  line-height: 0vw;
+  letter-spacing: 0px;
+  font-weight: 500;
+  text-shadow: 0 0px 2px rgb(255 255 255 / 15%);
+
+  transition: all 0.2s ease-in;
+}
+.customElement#sideBar > .main > .list > .element[is-active='true'] > .sub-list > .element > .content > .name > span {
+  font-size: 3vw;
+  line-height: 3vw;
+}
+
+.customElement#sideBar > .main > .list > .element > .sub-list > .element > .content > .name > .notification {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: calc(0%);
+  height: calc(0%);
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  border-radius: 5px;
+  background: rgba(255, 157, 28, 0.85);
+
+  transform: translateY(-40%);
+
+  transition: all 0.2s ease-out;
+
+  z-index: 99999;
+}
+.customElement#sideBar > .main > .list > .element[is-active='true'] > .sub-list > .element > .content > .name > .notification {
+  width: max-content;
+  height: calc(80%);
+
+  margin: 0px 0px 0px 5px;
+  padding: 0px 5px 0px 5px;
+}
+
+.customElement#sideBar > .main > .list > .element > .sub-list > .element > .content > .name > .notification > span {
+  color: rgba(240, 240, 240, 0.95);
+
+  font-family: 'Noto Sans', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  text-align: left;
+
+  font-size: 0vw;
+  line-height: 0vw;
+  letter-spacing: 0px;
+  font-weight: 700;
+  text-shadow: 0 0px 2px rgb(255 255 255 / 15%);
+
+  transition: all 0.2s ease-in;
+}
+.customElement#sideBar > .main > .list > .element[is-active='true'] > .sub-list > .element > .content > .name > .notification > span {
+  font-size: 1.3vw;
+  line-height: 1.3vw;
+}

@@ -1,0 +1,542 @@
+.customElement#projects {
+    position: absolute;
+
+    top: 0%;
+    left: 0%;
+
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: calc(100%);
+    height: calc(100%);
+
+    margin: 0px;
+    padding: 0px;
+
+    border: none;
+    background: none;
+
+    z-index: 1;
+}
+
+.customElement#projects > .current {
+    position: relative;
+
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: calc(100%);
+    height: calc(100%);
+
+    margin: 0px;
+    padding: 0px;
+
+    border: none;
+    background: none;
+
+    z-index: 1;
+}
+.customElement#projects > .current[is-active='true'] {
+    z-index: 2;
+}
+
+.customElement#projects > .current > .selector {
+    position: relative;
+
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: calc(100%);
+    height: calc(10% - 10px);
+
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+
+    border: none;
+    background: none;
+
+    z-index: 1;
+}
+.customElement#projects > .current[is-active='true'] > .selector {
+    z-index: 2;
+}
+
+.customElement#projects > .current > .selector > button {
+    position: relative;
+
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: calc(31.7%);
+    height: calc(100%);
+
+    margin: 0px;
+    padding: 10px 10px 10px 10px;
+
+    border: none;
+    border-radius: 30px 30px 0px 0px;
+    background: rgba(40, 40, 40, 1);
+
+    z-index: 1;
+}
+.customElement#projects > .current > .selector > button::before {
+    position: absolute;
+
+    top: 100%;
+    left: 0%;
+
+    display: block;
+
+    content: '';
+
+    width: calc(50px);
+    height: calc(50px);
+
+    margin: 0px;
+    padding: 0px;
+
+    border: none;
+    border-radius: 50%;
+    background: none;
+
+    box-shadow: 15px 18px rgba(40, 40, 40, 1);
+
+    transform: translateX(-99%) translateY(-97%);
+}
+.customElement#projects > .current > .selector > button::after {
+    position: absolute;
+
+    top: 100%;
+    left: 100%;
+
+    display: block;
+
+    content: '';
+
+    width: calc(50px);
+    height: calc(50px);
+
+    margin: 0px;
+    padding: 0px;
+
+    border: none;
+    border-radius: 50%;
+    background: none;
+
+    box-shadow: -15px 18px rgba(40, 40, 40, 1);
+
+    transform: translateX(-1%) translateY(-97%);
+}
+.customElement#projects > .current[is-active='true'] > .selector > button {
+    background: rgba(15, 15, 15, 1);
+}
+.customElement#projects > .current[is-active='true'] > .selector > button::before {
+    box-shadow: 15px 18px rgba(15, 15, 15, 1);
+}
+.customElement#projects > .current[is-active='true'] > .selector > button::after {
+    box-shadow: -15px -18px rgba(15, 15, 15, 1);
+}
+.customElement#projects > .current[is-active='true'] > .selector > button {
+    z-index: 2;
+}
+
+.customElement#projects > .current > .content {
+    position: relative;
+
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: calc(95%);
+    height: calc(85%);
+
+    margin: 0px;
+    padding: 10px 10px 10px 10px;
+
+    border: none;
+    border-radius: 30px 30px 30px 30px;
+    background: rgba(15, 15, 15, 1);
+
+    z-index: 1;
+}
+.customElement#projects > .current[is-active='true'] > .content {
+    z-index: 2;
+}
+
+
+.customElement#projects > .new {
+    position: relative;
+
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: calc(100%);
+    height: calc(100%);
+
+    margin: 0px;
+    padding: 0px;
+
+    border: none;
+    background: none;
+
+    z-index: 1;
+}
+.customElement#projects > .new[is-active='true'] {
+    z-index: 2;
+}
+
+.customElement#projects > .new > .selector {
+    position: relative;
+
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: calc(100%);
+    height: calc(10% - 10px);
+
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+
+    border: none;
+    background: none;
+
+    z-index: 1;
+}
+.customElement#projects > .new[is-active='true'] > .selector {
+    z-index: 2;
+}
+
+.customElement#projects > .new > .selector > button {
+    position: relative;
+
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: calc(31.7%);
+    height: calc(100%);
+
+    margin: 0px;
+    padding: 10px 10px 10px 10px;
+
+    border: none;
+    border-radius: 30px 30px 0px 0px;
+    background: rgba(40, 40, 40, 1);
+
+    z-index: 1;
+}
+.customElement#projects > .new > .selector > button::before {
+    position: absolute;
+
+    top: 100%;
+    left: 0%;
+
+    display: block;
+
+    content: '';
+
+    width: calc(50px);
+    height: calc(50px);
+
+    margin: 0px;
+    padding: 0px;
+
+    border: none;
+    border-radius: 50%;
+    background: none;
+
+    box-shadow: 15px 18px rgba(40, 40, 40, 1);
+
+    transform: translateX(-99%) translateY(-97%);
+}
+.customElement#projects > .new > .selector > button::after {
+    position: absolute;
+
+    top: 100%;
+    left: 100%;
+
+    display: block;
+
+    content: '';
+
+    width: calc(50px);
+    height: calc(50px);
+
+    margin: 0px;
+    padding: 0px;
+
+    border: none;
+    border-radius: 50%;
+    background: none;
+
+    box-shadow: -15px 18px rgba(40, 40, 40, 1);
+
+    transform: translateX(-1%) translateY(-97%);
+}
+.customElement#projects > .new[is-active='true'] > .selector > button {
+    background: rgba(15, 15, 15, 1);
+}
+.customElement#projects > .new[is-active='true'] > .selector > button::before {
+    box-shadow: 15px 18px rgba(15, 15, 15, 1);
+}
+.customElement#projects > .new[is-active='true'] > .selector > button::after {
+    box-shadow: -15px -18px rgba(15, 15, 15, 1);
+}
+.customElement#projects > .new[is-active='true'] > .selector > button {
+    z-index: 2;
+}
+
+.customElement#projects > .new > .content {
+    position: relative;
+
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: calc(95%);
+    height: calc(85%);
+
+    margin: 0px;
+    padding: 10px 10px 10px 10px;
+
+    border: none;
+    border-radius: 30px 30px 30px 30px;
+    background: rgba(15, 15, 15, 1);
+
+    z-index: 1;
+}
+.customElement#projects > .new[is-active='true'] > .content {
+    z-index: 2;
+}
+
+
+.customElement#projects > .old {
+    position: relative;
+
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: calc(100%);
+    height: calc(100%);
+
+    margin: 0px;
+    padding: 0px;
+
+    border: none;
+    background: none;
+
+    z-index: 1;
+}
+.customElement#projects > .old[is-active='true'] {
+    z-index: 2;
+}
+
+.customElement#projects > .old > .selector {
+    position: relative;
+
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+    width: calc(100%);
+    height: calc(10% - 10px);
+
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+
+    border: none;
+    background: none;
+
+    z-index: 1;
+}
+.customElement#projects > .old[is-active='true'] > .selector {
+    z-index: 2;
+}
+
+.customElement#projects > .old > .selector > button {
+    position: relative;
+
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: calc(31.7%);
+    height: calc(100%);
+
+    margin: 0px;
+    padding: 10px 10px 10px 10px;
+
+    border: none;
+    border-radius: 30px 30px 0px 0px;
+    background: rgba(40, 40, 40, 1);
+
+    z-index: 1;
+}
+.customElement#projects > .old > .selector > button::before {
+    position: absolute;
+
+    top: 100%;
+    left: 0%;
+
+    display: block;
+
+    content: '';
+
+    width: calc(50px);
+    height: calc(50px);
+
+    margin: 0px;
+    padding: 0px;
+
+    border: none;
+    border-radius: 50%;
+    background: none;
+
+    box-shadow: 15px 18px rgba(40, 40, 40, 1);
+
+    transform: translateX(-99%) translateY(-97%);
+}
+.customElement#projects > .old > .selector > button::after {
+    position: absolute;
+
+    top: 100%;
+    left: 100%;
+
+    display: block;
+
+    content: '';
+
+    width: calc(50px);
+    height: calc(50px);
+
+    margin: 0px;
+    padding: 0px;
+
+    border: none;
+    border-radius: 50%;
+    background: none;
+
+    box-shadow: -15px 18px rgba(40, 40, 40, 1);
+
+    transform: translateX(-1%) translateY(-97%);
+}
+.customElement#projects > .old[is-active='true'] > .selector > button {
+    background: rgba(15, 15, 15, 1);
+}
+.customElement#projects > .old[is-active='true'] > .selector > button::before {
+    box-shadow: 15px 18px rgba(15, 15, 15, 1);
+}
+.customElement#projects > .old[is-active='true'] > .selector > button::after {
+    box-shadow: -15px -18px rgba(15, 15, 15, 1);
+}
+.customElement#projects > .old[is-active='true'] > .selector > button {
+    z-index: 2;
+}
+
+.customElement#projects > .old > .content {
+    position: relative;
+
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: calc(95%);
+    height: calc(85%);
+
+    margin: 0px;
+    padding: 10px 10px 10px 10px;
+
+    border: none;
+    border-radius: 30px 30px 30px 30px;
+    background: rgba(15, 15, 15, 1);
+
+    z-index: 1;
+}
+.customElement#projects > .old[is-active='true'] > .content {
+    z-index: 2;
+}
