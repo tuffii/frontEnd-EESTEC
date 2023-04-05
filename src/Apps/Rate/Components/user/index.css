@@ -1,0 +1,547 @@
+.customElement#rate > .field {
+  position: relative;
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  appearance: none;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: calc(95%);
+  height: calc(100%);
+
+  margin: 10px 0px 5px 0px;
+  padding: 0px 20px 15px 20px;
+
+  border: none;
+  border-radius: 25px;
+  background: rgba(15, 15, 15, 0.9);
+
+  z-index: 1;
+}
+
+
+.customElement#rate > .field > .element > .left-block{
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  
+
+  width: calc(100%);
+  height: calc(100%);
+
+  margin: 0px;
+  padding: 20px 15px 5px 0px;
+
+  border: none;
+
+  background: none;
+
+  z-index: 1;
+}
+
+.customElement#rate > .field > .element > .right-block{
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: calc(100%);
+  height: calc(100%);
+
+  margin: 0px;
+  padding: 10px 15px 5px 10px;
+
+  border: none;
+
+  background: none;
+
+  z-index: 1;
+}
+
+.customElement#rate > .field > .element {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+
+  width: calc(100%);
+  height: calc(100%);
+
+  margin: 0px;
+  padding: 15px 15px 5px 15px;
+
+  border: 2px;
+
+  background: none;
+
+  z-index: 1;
+}
+
+.customElement#rate > .field > .element::before {
+  position: absolute;
+
+  top: 100%;
+  left: 50%;
+
+  display: block;
+
+  content: '';
+
+  width: calc(100%);
+  height: calc(2px);
+
+  margin: 20px 0px 0px 0px;
+  padding: 0px;
+
+  border: none;
+  background: rgb(180, 10, 10);
+
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.customElement#rate > .field > .element:last-child::before {
+  display: none;
+}
+
+
+.customElement#rate > .field > .element > .left-block > .name {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: baseline;
+
+  width: calc(100%);
+  height: calc(100%);
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  z-index: 1;
+}
+
+
+.customElement#rate > .field > .element > .left-block  > .name > .full {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: calc(100%);
+  height: calc(100%);
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  z-index: 1;
+}
+
+
+.customElement#rate > .field > .element > .left-block  > .name > .full > .name {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: baseline;
+
+  width: auto;
+  height: calc(100%);
+
+  margin: 0vw 1vw 0vw 0vw;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  z-index: 1;
+}
+
+
+.customElement#rate > .field > .element > .left-block  > .name > .full > .thirdName {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: baseline;
+
+  width: auto;
+  height: calc(100%);
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  z-index: 1;
+}
+
+
+.customElement#rate > .field > .element > .left-block  > .name > .second {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: baseline;
+
+  width: auto;
+  height: calc(50%);
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  z-index: 1;
+}
+
+
+.customElement#rate > .field > .element > .left-block  > .name > .second::before {
+  position: absolute;
+
+  top: 100%;
+  left: 50%;
+
+  display: block;
+
+  content: '';
+
+  width: calc(100%);
+  height: calc(3px);
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: rgb(130, 130, 130);
+
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.customElement#rate > .field > .element > .left-block  > .place {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: baseline;
+
+  width: calc(auto);
+  height: calc(50%);
+
+  margin: 0px 20px 0px 0px;
+  padding: 0px;
+
+  border: none;
+
+  background: none;
+
+  z-index: 1;
+}
+
+
+.customElement#rate > .field > .element > .right-block > .delta {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: calc(20%);
+  height: calc(50%);
+
+  margin: 0px 5px 0px 5px;
+  padding: 2px 8px 2px 8px;
+
+  border: none;
+  border-radius: 15px;
+  background: none;
+
+  overflow: visible;
+
+  z-index: 1;
+}
+
+
+.customElement#rate > .field > .element > .right-block > .delta:first-child {
+  margin: 0px 5px 0px 0px;
+}
+
+
+.customElement#rate > .field > .element > .right-block > .delta > .marker {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: calc(6px);
+  height: calc(6px);
+
+  margin: 0px 2px 0px 2px;
+  padding: 0px;
+
+  border: none;
+  border-radius: 50%;
+  background: none;
+
+  z-index: 1;
+}
+
+
+.customElement#rate > .field > .element > .right-block > .delta > .name {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  width: calc(100%);
+  height: calc(100%);
+
+  margin: 0px 5px 0px 5px;
+  padding: 1px 2px 1px 2px;
+
+  border: none;
+  background: none;
+
+  z-index: 1;
+}
+
+
+.customElement#rate > .field > .element > .right-block > .delta > .name > span {
+  color: rgba(180, 180, 180, 0.8);
+
+  font-family: 'Noto Sans', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  text-align: center;
+
+  font-size: 2vw;
+  line-height: 3vw;
+  letter-spacing: 0px;
+  font-weight: 400;
+  text-shadow: 0 0px 2px rgb(255 255 255 / 10%);
+}
+
+.customElement#rate > .field > .element > .right-block > .kpi {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: row;
+  justify-content: baseline;
+  align-items: right;
+
+  width: auto;
+  height: calc(100%);
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  z-index: 1;
+}
+
+.customElement#rate > .field > .element > .right-block > .kpi > span {
+  color: rgba(120, 120, 120, 0.95);
+
+  font-family: 'Noto Sans', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  text-align: center;
+
+  font-size: 3vw;
+  line-height: 3vw;
+  letter-spacing: 0px;
+  font-weight: 400;
+  text-shadow: 0 0px 2px rgb(255 255 255 / 45%);
+
+  transition: all 0.2s linear;
+}
+
+.customElement#rate > .field > .element > .right-block > .delta > span {
+  color: rgba(120, 120, 120, 0.95);
+
+  font-family: 'Noto Sans', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  text-align: center;
+
+  font-size: 3vw;
+  line-height: 3vw;
+  letter-spacing: 0px;
+  font-weight: 400;
+  text-shadow: 0 0px 2px rgb(255 255 255 / 45%);
+
+  transition: all 0.2s linear;
+}
+
+.customElement#rate > .field > .element > .left-block  > .place > span {
+  color: rgba(120, 120, 120, 0.95);
+
+  font-family: 'Noto Sans', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  text-align: center;
+
+  font-size: 3vw;
+  line-height: 3vw;
+  letter-spacing: 0px;
+  font-weight: 400;
+  text-shadow: 0 0px 2px rgb(255 255 255 / 45%);
+
+  transition: all 0.2s linear;
+}
+
+.customElement#rate > .field > .element > .left-block  > .name > .second > span {
+  color: rgba(235, 4, 4, 0.95);
+
+  font-family: 'Noto Sans', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  text-align: center;
+
+  font-size: 3vw;
+  line-height: 3vw;
+  letter-spacing: 0px;
+  font-weight: 400;
+  text-shadow: 0 0px 2px rgb(255 255 255 / 45%);
+
+  transition: all 0.2s linear;
+}
+
+.customElement#rate > .field > .element > .left-block  > .name > .full > .name > span {
+  color: rgba(120, 120, 120, 0.95);
+
+  font-family: 'Noto Sans', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  text-align: center;
+
+  font-size: 2vw;
+  line-height: 3vw;
+  letter-spacing: 0px;
+  font-weight: 400;
+  text-shadow: 0 0px 2px rgb(255 255 255 / 45%);
+
+  transition: all 0.2s linear;
+}
+
+
+.customElement#rate > .field > .element > .left-block  > .name > .full > .thirdName > span {
+  color: rgba(120, 120, 120, 0.95);
+
+  font-family: 'Noto Sans', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  text-align: center;
+
+  font-size: 2vw;
+  line-height: 3vw;
+  letter-spacing: 0px;
+  font-weight: 400;
+  text-shadow: 0 0px 2px rgb(255 255 255 / 45%);
+
+  transition: all 0.2s linear;
+}
+
+
+
+

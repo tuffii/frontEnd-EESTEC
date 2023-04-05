@@ -1,0 +1,78 @@
+.customElement#rate {
+    position: relative;
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    appearance: none;
+  
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  
+    width: calc(100%);
+    height: max-content;
+  
+    margin: 0px;
+    padding: 0px;
+  
+    border: none;
+    background: none;
+  
+    z-index: 1;
+  }
+
+.customElement#rate > .header {
+  position: relative;
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  appearance: none;
+
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  width: calc(95%);
+  height: calc(16vh);
+
+  margin: 10px 0px 5px 0px;
+  padding: 0px 20px 0px 20px;
+
+  border: none;
+  border-radius: 25px;
+  background: rgba(15, 15, 15, 0.9);
+
+  z-index: 1;
+}
+
+.customElement#rate > .header > img {
+  position: relative;
+  
+  display: block;
+
+  max-width: calc(100%);
+  width: auto;
+  max-height: calc(100%);
+  height: auto;
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  border-radius: 50%;
+  background: none;
+
+  z-index: 99999;
+}
+
+.customElement#rate > .header > span {
+  color:rgba(216, 2, 2, 0.9);
+  font-size: 5vw;
+  padding: 10px 5px 10px 10px; 
+  line-height: 5vw;
+}
+
