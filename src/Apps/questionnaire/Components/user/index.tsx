@@ -25,17 +25,13 @@ const Component: SolidJS.Component<userCardsList> = (_) => {
       {(card) => {
         const userElement: SolidJS.JSX.Element = (
           <div class="element">
-            {/* <input type={"checkbox"} onChange={(_) => {
-        card.flag=(!card.flag)
-        }}>
-      </input> */}
             <flexButton.default Before="fa-solid fa-check" After="fa-solid fa-x" function={{ entity: changeFlag, parameters: [card] }} />
 
-            <div class={"name"}>{card.flag}</div>
-
-            <div class={"name"}>{card.Name}</div>
-            <div class={"name"}>{card.secondName}</div>
-            <div class={"name"}>{card.thirdName}</div>
+            <div class={"names"}>
+              <div class={"firstName"}>{card.Name}</div>
+              <div class={"secondName"}>{card.secondName}</div>
+              <div class={"secondName"}>{card.thirdName}</div>
+            </div>
 
             <div class={`roles`} no-select={`true`}></div>
 

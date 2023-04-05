@@ -161,7 +161,7 @@ const Component: SolidJS.Component = () => {
       </div>
 
       {UpdateDatabase() && (
-      <Components.userList.default id={456} userCards={users} />
+      <Components.userList.default id={456} userCards={list()} />
       )}
 
     </div>

@@ -107,7 +107,19 @@ const Component: SolidJS.Component = () => {
     return false;
   }});
 
+  const filterUsers = (users: Users, searchValue: string) => {
+    return users.filter(({ Name, secondName, thirdName }) =>
+      `${Name}${secondName}${thirdName}`
+        .toLowerCase()
+        .includes(searchValue.toLowerCase())
+    );
+  };
 
+  const UpdateInputValue = (str: string) => {
+    return setList([...filterUsers(users, str)])
+  }
+
+  const [UpdateDatabase, setUpdateDatabase] = createSignal(true);
 
   const Element: SolidJS.JSX.Element = (
     <div class={`customElement`} id={`questionnaire`}>
@@ -119,11 +131,14 @@ const Component: SolidJS.Component = () => {
           <input class={"input"}
             placeholder = "Поиск..."
             onInput={(_) => { 
-              // UpdateInputValue(_.currentTarget.value)
+              setUpdateDatabase(!(UpdateDatabase()))
+              UpdateInputValue(_.currentTarget.value)
+              setUpdateDatabase(!(UpdateDatabase()))
             }}/>
         </div>
         <button class={"multiple"}
         onClick={(_) => {
+          console.log(list())
           // setShowFilters(!showFilters());
         }}>
         <i class="fa-light fa-square-xmark fa-3x" style={"color: #666666"}></i>
@@ -131,19 +146,20 @@ const Component: SolidJS.Component = () => {
 
         <button class={"multiple"}
         onClick={(_) => {
+          console.log(list())
           // setShowFilters(!showFilters());
         }}>
         <i class="fa-light fa-square-check fa-3x" style={"color: #666666"}></i>
         </button>
       </div>
 
+
+      {UpdateDatabase() && (
       <div class={"list"}>
-
-
-      <Components.userList.default id={456} userCards={list()} />
-
-
+        <Components.userList.default id={456} userCards={list()} />
       </div>
+      )}
+
 
 
     </div>

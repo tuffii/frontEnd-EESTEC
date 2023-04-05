@@ -24,7 +24,7 @@
 }
 
 .customElement#questionnaire > .header {
-  position: relative;
+  position: fixed;
   display: flex;
   display: -webkit-box;
   display: -moz-box;
@@ -159,8 +159,12 @@
   justify-content: center;
   align-items: left;
 
-  width: auto;
+  width: 95%;
   height: auto;
+  border-radius: 20px;
 
-  background: #4d4d4d;
+  padding: 3%;
+  margin: calc(10vh);
+
+  background: rgba(15, 15, 15, 0.9);
 }
