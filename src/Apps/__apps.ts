@@ -6,4 +6,4 @@ export * as Projects from './Projects/App'
 
 export * as usersList from './usersList/App'
 
-export * as questionnaire from './questionnaire/App'
+export * as requests from './requests/App'

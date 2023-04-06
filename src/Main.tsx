@@ -15,7 +15,7 @@ const Component: SolidJS.Component = () => {
             <SolidRouter.Route path={`/profile`} component={Apps.Profile.default} />
             <SolidRouter.Route path={`/projects`} component={Apps.Projects.default} />
             <SolidRouter.Route path={`/usersList`} component={Apps.usersList.default} />
-            <SolidRouter.Route path={`/questionnaire`} component={Apps.questionnaire.default} />
+            <SolidRouter.Route path={`/requests`} component={Apps.requests.default} />
           </SolidRouter.Routes>
         </div>
       </div>

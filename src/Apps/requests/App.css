@@ -1,0 +1,371 @@
+.customElement#requests {
+  position: relative;
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  appearance: none;
+
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: calc(100%);
+  height: max-content;
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  z-index: 1;
+}
+
+
+.customElement#requests  > .blacker {
+  position: fixed;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  appearance: none;
+    
+  margin:  0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  
+  justify-content: center;
+  align-items: center;
+
+  width: calc(100%);
+  height: calc(100%);
+
+  border-radius: 0px;
+  background: rgba(15, 15, 15, 0.9);
+
+  z-index: 90;
+}
+.customElement#requests  > .blacker > .meny {
+  position: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  appearance: none;
+
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: baseline;
+    
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+
+  width: calc(80%);
+  height: calc(60%);
+
+  border-radius: 25px;
+  background: rgba(57, 47, 129, 1);
+  z-index: 99;
+  transform: translateY(calc(-15%));
+}
+
+
+.customElement#requests  > .blacker > .meny > .head {
+  position: relative;
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  appearance: none;
+
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+
+  width: calc(100%);
+  height: calc(12%);
+
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+
+  background: none;
+  border-radius: 25px;
+  z-index: 200;
+}
+
+.customElement#requests  > .blacker > .meny > .head::after {
+  position: absolute;
+
+  top: 100%;
+  left: 50%;
+
+  display: block;
+
+  content: '';
+
+  width: calc(100%);
+  height: calc(2px);
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: rgba(210, 210, 210, 0.8);
+
+  transform: translateX(-50%);
+  z-index: 999;
+}
+
+
+
+.customElement#requests  > .blacker > .meny > .head > .textContainer {
+  position: relative;
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  appearance: none;
+  background: none;
+  color: rgb(21, 224, 227);
+
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 4%;
+
+  width: calc(100%);
+  height: calc(100%);
+
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+
+}
+
+.customElement#requests  > .blacker > .meny > .head > .textContainer > .text {
+  position: relative;
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  appearance: none;
+  
+  width: calc(100%);
+  height: calc(100%);
+
+  font-size: 200%;
+
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+
+  background: none;
+}
+
+
+.customElement#requests  > .blacker > .meny > .head > .close {
+  position: relative;
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  appearance: none;
+
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0px, 10%, 0px, 0px;
+  padding: 0px, 0px, 0px, 0px;
+
+  width: calc(12%);
+  height: calc(60%);
+
+  border-radius: 0px;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.customElement#requests  > .blacker > .meny > .settings {
+  position: fixed;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  appearance: none;
+
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: baseline;
+
+  margin: 2% 2% 2% 2%;
+  padding: 5% 0px 0px 0px;
+
+  width: calc(100%);
+  height: calc(100%);
+
+  border-radius: 50px;
+  background: none;
+  transform: translateY(10%);
+
+  z-index: 100;
+}
+.customElement#requests  > .blacker > .meny > .settings > .switch {
+  margin: 0% 0% 2% 0%;
+  padding: 0px 0px 0px 0px;
+}
+
+
+
+
+
+.customElement#requests > .header {
+  position: fixed;
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  appearance: none;
+
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: calc(95%);
+  height: calc(8vh);
+
+  margin: 10px 0px 5px 0px;
+  padding: 0px 20px 0px 20px;
+
+  border: none;
+  border-radius: 25px;
+  background: rgba(15, 15, 15, 0.9);
+
+  z-index: 99999;
+}
+
+.customElement#requests > .header > .search {
+  position: relative;
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  appearance: none;
+
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0px;
+  padding: 0px;
+
+  width: calc(80%);
+  height: calc(50%);
+
+  border-radius: 30px;
+  background: rgba(77, 77, 77, 0.9);
+}
+
+.customElement#requests > .header > .search > .glass {
+  position: relative;
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  appearance: none;
+
+  margin: 5% 0% 0% 0%;
+  padding: 0px;
+
+  width: calc(7%);
+  height: calc(50%);
+
+  background: none;
+}
+
+.customElement#requests > .header > .search > .input {
+  outline: none;
+  position: relative;
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  appearance: none;
+
+  flex-direction: row;
+  justify-content: baseline;
+  align-items: center;
+
+  margin: 0px;
+  padding: 0px;
+
+  width: calc(85%);
+  height: calc(70%);
+  border: none;
+  background: none;
+}
+
+.customElement#requests > .header > .multiple {
+  position: relative;
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  appearance: none;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0px;
+  padding: 0px;
+  cursor: pointer;
+
+  width: calc(8%);
+  height: calc(50%);
+
+  border-radius: 0px;
+
+  text-decoration: none;
+  background: none;
+  border: none;
+}
+.customElement#requests > .header > .multiple:hover:not(:active) {
+  background: none;
+}
+.customElement#requests > .header > .multiple:hover:active {
+  top: 2px;
+}
+
+
+.customElement#requests > .list {
+  position: relative;
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  appearance: none;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+
+  width: 95%;
+  height: auto;
+  border-radius: 20px;
+
+  padding: 0%;
+  margin: calc(10vh);
+
+  background: rgba(15, 15, 15, 0.9);
+}
