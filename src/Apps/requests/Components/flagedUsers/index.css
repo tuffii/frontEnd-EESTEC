@@ -38,7 +38,7 @@
   height: calc(1px);
 
   margin: 0px;
-  padding: 0px;
+  padding: 0px 0 0;
 
   border: none;
   background: #777777;
@@ -73,6 +73,7 @@
   font-family: sans-serif;
   background: none;
   margin: 0px;
+  z-index: 99;
 }
 
 .customElement#requests > .blacker > .meny > .settings > .element > .names > .firstName{
@@ -102,6 +103,7 @@
 
   background: none;
   margin: 0px;
+  z-index: 99;
 }
 
 .customElement#requests > .blacker > .meny > .settings > .element > .names > .secondName {
@@ -131,6 +133,7 @@
 
   background: none;
   margin: 0px;
+  z-index: 99;
 }
 
 .customElement#requests > .blacker > .meny > .settings > .element > .phone {
